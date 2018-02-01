@@ -433,6 +433,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/reject.png": {
+		"ft": 32768,
+		"iS": 524,
+		"oA": 0,
+		"oAP": "\/images\/reject.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/reschedule.png": {
 		"ft": 32768,
 		"iS": 872,
