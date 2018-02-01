@@ -146,7 +146,7 @@ body {
   box-shadow: inset 9px 9px 17px -11px rgba(0,0,0,0.5);
   .main-padding {
     padding: 43px 0px 0px 30px;
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1919px) {
       padding: 20px 0px 0px 0px;
     }
   }
@@ -171,7 +171,7 @@ body {
     border-radius: 30px;
     font-size: 20.98px;
     padding-left: 36px;
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1919px) {
       font-size: 11.98px;
       padding-left: 15px;
       float: left;
@@ -179,14 +179,14 @@ body {
     &.location {
       width: 323px;
       margin-right: 26px;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         width: 200px;
         margin-right: 10px;
       }
     }
     &.date {
       width: 295px;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         width: 200px;
       }
     }
@@ -197,7 +197,7 @@ body {
 .model-one-left-area {
   width: calc(100% - 114px);
   margin: 0px 0px 0px 21px;
-  @media screen and (max-width: 1920px) {
+  @media screen and (max-width: 1919px) {
     width: 100%;
     margin: 0;
   }
@@ -220,7 +220,7 @@ body {
   .profile-image {
     float: left;
     margin: 27px 0px 0px 41px;
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1919px) {
       margin: 27px 0px 0px 10px;
     }
     img {
@@ -235,7 +235,7 @@ body {
     h3 {
       font-size: 28.64px;
       color: #545b5e;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         font-size: 24px;
       }
     }
@@ -245,7 +245,7 @@ body {
       display: block;
       margin: 23px 0px 0px;
       text-transform: uppercase;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         font-size: 14px;
         margin: 10px 0px 0px;
       }
@@ -263,7 +263,7 @@ body {
       color: #545b5e;
       vertical-align: top;
       margin: 6px 0px 0px 15px;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         font-size: 18px;
       }
     }
@@ -272,7 +272,7 @@ body {
     display: inline-block;
     float: right;
     margin-right: 31px;
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1919px) {
       margin-right: 10px;
     }
     a {
@@ -286,7 +286,7 @@ body {
       border-radius: 30px;
       line-height: 40px;
       margin: 102px 0px 0px 0px;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         font-size: 18px;
         width: 68px;
         margin: 50px 0px 0px 0px;
@@ -310,7 +310,7 @@ body {
 
 .model-one-right-area {
   margin-right: 90px;
-  @media screen and (max-width: 1920px) {
+  @media screen and (max-width: 1919px) {
     margin: 0;
   }
 }
@@ -321,19 +321,19 @@ ul {
     padding: 0 0 20px 0;
     list-style: none;
     border-bottom: 1px solid #e5e8ed;
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1919px) {
       margin: 13px 0px 0px 0px;
     }
     li {
       display: inline-block;
       font-size: 22.92px;
       color: #545b5e;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         font-size: 18px;
       }
       &:first-child {
         margin-right: 164px;
-        @media screen and (max-width: 1920px) {
+        @media screen and (max-width: 1919px) {
           margin-right: 10px;
         }
       }
@@ -355,7 +355,7 @@ ul {
   color: #a6afbe;
   margin-top: 22px;
   .col-sm-4 {
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1919px) {
       width: 49%;
     }
   }
@@ -380,7 +380,7 @@ ul {
   h3 {
     font-size: 21.82px;
     color: #45b6b0;
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1919px) {
       font-size: 13px;
     }
   }
@@ -402,7 +402,7 @@ ul {
       font-size: 19.78px;
       color: #545b5e;
       line-height: 32px;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         background-position: left 3px;
         padding-left: 16px;
         font-size: 12px;
@@ -459,7 +459,7 @@ ul {
       text-align: center;
       line-height: 50px;
       margin-left: 20px;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         width: 42px;
         height: 42px;
         line-height: 42px;
@@ -559,7 +559,7 @@ ul.prices {
   padding-top: 26px;
   padding-bottom: 21px;
   margin-bottom: 30px;
-  @media screen and (max-width: 1920px) {
+  @media screen and (max-width: 1919px) {
     min-height: 214px;
   }
   .icon-area {
@@ -571,7 +571,7 @@ ul.prices {
     color: rgb(57, 205, 208);
     line-height: 1.2;
     font-size: 18.85px;
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1919px) {
       display: block;
       min-height: 44px;
     }
@@ -583,16 +583,22 @@ ul.prices {
 .dashboard-main {
   &.col-lg-8 {
     width: 61.89667%;
+    @media screen and (max-width: 1199px) {
+      width: 100%;
+    }
   }
   &.col-lg-4 {
     width: 36.73333%;
+    @media screen and (max-width: 1199px) {
+      width: 100%;
+    }
   }
   ul.change-link li {
     font-size: 14px !important;
   }
   ul.change-link li:first-child {
     margin-right: 60px !important;
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1919px) {
       margin-right: 10px !important;
     }
   }
@@ -607,7 +613,7 @@ ul.prices {
   box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.21);
   float: left;
   margin-top: 23px;
-  @media screen and (max-width: 1920px) {
+  @media screen and (max-width: 1919px) {
     min-height: 190px;
   }
   .col-xs-4 {
@@ -743,10 +749,16 @@ ul.prices {
 .calendar-page {
   &.col-lg-7 {
     width: 53.33333%;
+    @media screen and (max-width: 1199px) {
+      width: 100%;
+    }
 
   }
   &.col-lg-5 {
     width: 44.66667%;
+    @media screen and (max-width: 1199px) {
+      width: 100%;
+    }
   }
 
 
@@ -756,7 +768,7 @@ ul.prices {
       margin: -72px 0 0 2px;
       z-index: 9999;
       position: relative;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         margin: -42px 0 0 0px;
       }
     }
@@ -769,7 +781,7 @@ ul.prices {
       &.blue {
         background-color: #45b6b0;
       }
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 1919px) {
         width: 52px;
         height: 52px;
         line-height: 50px;
