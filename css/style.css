@@ -5864,6 +5864,9 @@ body {
     width: 490px;
     float: right;
     margin-right: 70px; }
+    @media screen and (max-width: 1050px) {
+      .header-area .top-right-area {
+        margin-right: 10px; } }
     .header-area .top-right-area .notification-area {
       width: 60px;
       height: 60px;
@@ -5923,6 +5926,9 @@ body {
   box-shadow: inset 9px 9px 17px -11px rgba(0, 0, 0, 0.5); }
   .site-main-area .main-padding {
     padding: 43px 0px 0px 30px; }
+    @media screen and (max-width: 1920px) {
+      .site-main-area .main-padding {
+        padding: 20px 0px 0px 0px; } }
 
 .sellectors select {
   position: relative;
@@ -5941,15 +5947,31 @@ body {
   border-radius: 30px;
   font-size: 20.98px;
   padding-left: 36px; }
+  @media screen and (max-width: 1920px) {
+    .sellectors select {
+      font-size: 11.98px;
+      padding-left: 15px;
+      float: left; } }
   .sellectors select.location {
     width: 323px;
     margin-right: 26px; }
+    @media screen and (max-width: 1920px) {
+      .sellectors select.location {
+        width: 200px;
+        margin-right: 10px; } }
   .sellectors select.date {
     width: 295px; }
+    @media screen and (max-width: 1920px) {
+      .sellectors select.date {
+        width: 200px; } }
 
 .model-one-left-area {
   width: calc(100% - 114px);
   margin: 0px 0px 0px 21px; }
+  @media screen and (max-width: 1920px) {
+    .model-one-left-area {
+      width: 100%;
+      margin: 0; } }
 
 .profile-line-model-one {
   position: relative;
@@ -5965,6 +5987,9 @@ body {
   .profile-line-model-one .profile-image {
     float: left;
     margin: 27px 0px 0px 41px; }
+    @media screen and (max-width: 1920px) {
+      .profile-line-model-one .profile-image {
+        margin: 27px 0px 0px 10px; } }
     .profile-line-model-one .profile-image img {
       width: 85px;
       height: 85px;
@@ -5975,12 +6000,19 @@ body {
     .profile-line-model-one .profile-details h3 {
       font-size: 28.64px;
       color: #545b5e; }
+      @media screen and (max-width: 1920px) {
+        .profile-line-model-one .profile-details h3 {
+          font-size: 24px; } }
     .profile-line-model-one .profile-details .upcoming {
       font-size: 16.19px;
       color: #a6afbe;
       display: block;
       margin: 23px 0px 0px;
       text-transform: uppercase; }
+      @media screen and (max-width: 1920px) {
+        .profile-line-model-one .profile-details .upcoming {
+          font-size: 14px;
+          margin: 10px 0px 0px; } }
     .profile-line-model-one .profile-details .clock-icon {
       display: inline-block;
       background-image: url("../images/clock.png");
@@ -5993,10 +6025,16 @@ body {
       color: #545b5e;
       vertical-align: top;
       margin: 6px 0px 0px 15px; }
+      @media screen and (max-width: 1920px) {
+        .profile-line-model-one .profile-details .time-text {
+          font-size: 18px; } }
   .profile-line-model-one .view-button-area {
     display: inline-block;
     float: right;
     margin-right: 31px; }
+    @media screen and (max-width: 1920px) {
+      .profile-line-model-one .view-button-area {
+        margin-right: 10px; } }
     .profile-line-model-one .view-button-area a {
       font-size: 22.42px;
       color: white;
@@ -6008,6 +6046,11 @@ body {
       border-radius: 30px;
       line-height: 40px;
       margin: 102px 0px 0px 0px; }
+      @media screen and (max-width: 1920px) {
+        .profile-line-model-one .view-button-area a {
+          font-size: 18px;
+          width: 68px;
+          margin: 50px 0px 0px 0px; } }
   .profile-line-model-one .active-box {
     background-color: #45b6b0;
     position: absolute;
@@ -6020,18 +6063,30 @@ body {
 
 .model-one-right-area {
   margin-right: 90px; }
+  @media screen and (max-width: 1920px) {
+    .model-one-right-area {
+      margin: 0; } }
 
 ul.change-link {
   margin: 13px 20px 0px 20px;
   padding: 0 0 20px 0;
   list-style: none;
   border-bottom: 1px solid #e5e8ed; }
+  @media screen and (max-width: 1920px) {
+    ul.change-link {
+      margin: 13px 0px 0px 0px; } }
   ul.change-link li {
     display: inline-block;
     font-size: 22.92px;
     color: #545b5e; }
+    @media screen and (max-width: 1920px) {
+      ul.change-link li {
+        font-size: 18px; } }
     ul.change-link li:first-child {
       margin-right: 164px; }
+      @media screen and (max-width: 1920px) {
+        ul.change-link li:first-child {
+          margin-right: 10px; } }
     ul.change-link li a {
       color: #545b5e; }
     ul.change-link li.active {
@@ -6043,6 +6098,9 @@ ul.change-link {
   font-size: 18.19px;
   color: #a6afbe;
   margin-top: 22px; }
+  @media screen and (max-width: 1920px) {
+    .date-and-cond .col-sm-4 {
+      width: 49%; } }
   .date-and-cond .round-area {
     border-width: 2.083px;
     border-color: #e5e8ed;
@@ -6062,6 +6120,9 @@ ul.change-link {
   .lists h3 {
     font-size: 21.82px;
     color: #45b6b0; }
+    @media screen and (max-width: 1920px) {
+      .lists h3 {
+        font-size: 13px; } }
   .lists.billing h3 {
     color: #545b5e; }
   .lists ul {
@@ -6077,6 +6138,12 @@ ul.change-link {
       font-size: 19.78px;
       color: #545b5e;
       line-height: 32px; }
+      @media screen and (max-width: 1920px) {
+        .lists ul li {
+          background-position: left 3px;
+          padding-left: 16px;
+          font-size: 12px;
+          line-height: 18px; } }
     .lists ul.no-style li {
       padding-left: 0;
       background-image: none; }
@@ -6117,6 +6184,13 @@ ul.cicle-icons {
     text-align: center;
     line-height: 50px;
     margin-left: 20px; }
+    @media screen and (max-width: 1920px) {
+      ul.cicle-icons li {
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        margin-left: 15px;
+        margin-bottom: 15px; } }
     ul.cicle-icons li.blue {
       background-color: #45b6b0; }
     ul.cicle-icons li:first-child {
@@ -6190,6 +6264,9 @@ ul.prices li {
   padding-top: 26px;
   padding-bottom: 21px;
   margin-bottom: 30px; }
+  @media screen and (max-width: 1920px) {
+    .oil-bg-box {
+      min-height: 214px; } }
   .oil-bg-box .icon-area {
     height: 60px;
     display: block; }
@@ -6197,13 +6274,22 @@ ul.prices li {
     color: #39cdd0;
     line-height: 1.2;
     font-size: 18.85px; }
+    @media screen and (max-width: 1920px) {
+      .oil-bg-box h3 {
+        display: block;
+        min-height: 44px; } }
 
 .dashboard-main.col-lg-8 {
   width: 61.89667%; }
 .dashboard-main.col-lg-4 {
   width: 36.73333%; }
+.dashboard-main ul.change-link li {
+  font-size: 14px !important; }
 .dashboard-main ul.change-link li:first-child {
   margin-right: 60px !important; }
+  @media screen and (max-width: 1920px) {
+    .dashboard-main ul.change-link li:first-child {
+      margin-right: 10px !important; } }
 
 .white-bg-box {
   position: relative;
@@ -6213,6 +6299,9 @@ ul.prices li {
   box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.21);
   float: left;
   margin-top: 23px; }
+  @media screen and (max-width: 1920px) {
+    .white-bg-box {
+      min-height: 190px; } }
   .white-bg-box .col-xs-4 img {
     margin-top: 59px; }
   .white-bg-box h3 {
@@ -6537,3 +6626,16 @@ ul.prices li {
   text-align: left;
   vertical-align: middle;
 }*/
+._3520_22 {
+  font-size: 186.716px;
+  font-family: "Proxima Nova";
+  color: #545b5e;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix(0.14392, 0, 0, 0.14505, 0, 0);
+  -webkit-transform: matrix(0.14392, 0, 0, 0.14505, 0, 0);
+  -ms-transform: matrix(0.14392, 0, 0, 0.14505, 0, 0);
+  position: absolute;
+  left: 779.641px;
+  top: 232.47px;
+  z-index: 173; }

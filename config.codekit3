@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26097",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/.idea\/modules.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -21,6 +28,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/.idea\/reception.iml",
+		"oF": 0
+		},
+	"\/.idea\/vcs.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.idea\/vcs.xml",
 		"oF": 0
 		},
 	"\/.idea\/workspace.xml": {
@@ -45,7 +59,8 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
