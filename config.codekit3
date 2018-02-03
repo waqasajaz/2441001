@@ -58,6 +58,13 @@
 		"oAP": "\/Archive.zip",
 		"oF": 0
 		},
+	"\/clinic.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/clinic.html",
+		"oF": 0
+		},
 	"\/config.rb": {
 		"cB": 0,
 		"ft": 8192,
@@ -246,6 +253,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/call.png": {
+		"ft": 32768,
+		"iS": 627,
+		"oA": 0,
+		"oAP": "\/images\/call.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/cancelappointment.png": {
 		"ft": 32768,
 		"iS": 870,
@@ -257,11 +275,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/check-g.png": {
+		"ft": 32768,
+		"iS": 306,
+		"oA": 0,
+		"oAP": "\/images\/check-g.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/clinic-mgmt.png": {
 		"ft": 32768,
 		"iS": 4737,
 		"oA": 0,
 		"oAP": "\/images\/clinic-mgmt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/clinic.png": {
+		"ft": 32768,
+		"iS": 1646,
+		"oA": 0,
+		"oAP": "\/images\/clinic.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -306,6 +346,17 @@
 		"iS": 15859,
 		"oA": 0,
 		"oAP": "\/images\/content-images\/hudson.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/content-images\/lb-calendar.png": {
+		"ft": 32768,
+		"iS": 33254,
+		"oA": 0,
+		"oAP": "\/images\/content-images\/lb-calendar.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -405,6 +456,17 @@
 		"iS": 924,
 		"oA": 0,
 		"oAP": "\/images\/patient.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/pluss.png": {
+		"ft": 32768,
+		"iS": 238,
+		"oA": 0,
+		"oAP": "\/images\/pluss.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -739,6 +801,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/New_Appointment.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/New_Appointment.html",
+		"oF": 0
 		},
 	"\/scss\/ie.scss": {
 		"aP": 0,

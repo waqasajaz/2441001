@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+<div class="site-container">
+    <div class="left-side-bar">
+        <div class="col-xs-12">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png">
+                </a>
+            </div>
+            <div class="side-links">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/dashboarda.png">
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/appointment.png">
+                            Appointment
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/patient.png">
+                            Patient
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/billing.png">
+                            Billing
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-area">
+        <div class="search-area">
+            <form>
+                <input type="text" class="form-control" id="searchid" placeholder="Search">
+            </form>
+        </div>
+        <div class="top-right-area">
+            <div class="notification-area">
+                <span class="notification">
+                    <span class="alert">3</span>
+                </span>
+            </div>
+            <div class="user">
+                <div class="user-thumb"><img src="images/content-images/header-profile.png"></div>
+                <div class="user-name">Ryan Gosling</div>
+                <div class="down-menu"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-main-area">
+        <div class="main-padding">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="model-one-left-area">
+                            <div class="col-md-12">
+                                <div class="sellectors">
+                                    <div class="col-sm-12">
+                                        <select class="location">
+                                            <option>Andheri West. Mumbai</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                        <select class="date">
+                                            <option>Today  20 Feb 2018</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="profile-line-model-one">
+                                    <div class="schedule-form">
+                                        <form action="#">
+                                            <h3>Schedule  an appointment</h3>
+                                            <div class="form-group form-group-lg">
+                                                <label for="patient">Choose from existing patient:</label>
+                                                <input type="text" class="form-control" id="patient" placeholder="Enter mobile number or ID">
+                                                <ul class="patient-list">
+                                                    <li><a href="#">David Russel</a></li>
+                                                    <li><a href="#">Katie Bush</a></li>
+                                                    <li><a href="#">Michelle Wilson</a></li>
+                                                </ul>
+                                            </div>
+                                            <h3>Appointment date and time</h3>
+                                            <div class="form-group form-group-lg">
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <label for="select-date">Select Date</label>
+                                                        <input type="date" class="form-control" id="select-date">
+                                                    </div>
+                                                    <div class="col-sm-8">
+                                                        <div class="col-xs-12">
+                                                            <label for="select-date">Select time</label>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <input type="text" class="form-control" id="from" placeholder="from">
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <input type="text" class="form-control" id="To" placeholder="to">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h3>Appointment Type</h3>
+                                            <div class="form-group form-group-lg">
+                                                <label class="checkbox-inline"><input type="checkbox" value="New Appointment">New Appointment</label>
+                                                <label class="checkbox-inline"><input type="checkbox" value="Follow Up">Follow Up</label>
+                                            </div>
+                                            <div class="text-right">
+                                                <button type="submit" class="btn btn-default">Save</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6">
+                            <div class="col-md-12">
+                                <div class="right-side-model-three">
+                                    <div class="profile-line-model-one">
+                                        <div class="new-patient-form">
+                                            <form action="#">
+                                                <button type="submit" class="btn btn-default header-button">Add new patient</button>
+                                                <div class="form-group form-group-lg">
+                                                    <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                                                </div>
+                                                <div class="form-group form-group-lg">
+                                                    <input type="text" class="form-control" id="name" placeholder="First Name">
+                                                </div>
+                                                <div class="form-group form-group-lg">
+                                                    <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                                                </div>
+                                                <div class="form-group form-group-lg">
+                                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                                </div>
+                                                <div class="form-group form-group-lg">
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                           <input type="date" class="form-control" id="birth" placeholder="Date of birth">
+                                                        </div>
+                                                        <div class="col-sm-6 text-center">
+                                                            <div class="form-group">
+                                                                <label class="checkbox-inline"><input type="checkbox" value="male">Male</label>
+                                                                <label class="checkbox-inline"><input type="checkbox" value="female">Female</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="text-right">
+                                                    <button type="submit" class="btn btn-default">Save</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="secondModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="second-modal-window">
+
+            <div class="col-md-12 header-area">
+                <div class="col-sm-6">
+                    <h3>Update Bill</h3>
+                </div>
+                <div class="col-sm-6 text-right date-area">
+                    <span>Date:</span> 22 Jan 2017
+                </div>
+            </div>
+
+            <div class="col-md-12 line">
+                <div class="col-sm-6">
+                    Amount Due
+                    <span>Amount due to be paid</span>
+                </div>
+                <div class="col-sm-6">
+                    <span class="rupi">3520.22</span>
+                </div>
+            </div>
+
+            <div class="col-md-12 line">
+                <div class="col-sm-6">
+                    Amount Paid
+                    <span> Paid by the patient</span>
+                </div>
+                <div class="col-sm-6">
+                    <span class="rupi">3000.00</span>
+                </div>
+            </div>
+
+            <div class="col-md-12 line balance">
+                <div class="col-sm-6">
+                    Balance
+                    <span> Amount remained </span>
+                </div>
+                <div class="col-sm-6">
+                    <span class="rupi">520.00</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#" class="full-button">Update and Save</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/javascripts/bootstrap.js"></script>
+</body>
+</html>

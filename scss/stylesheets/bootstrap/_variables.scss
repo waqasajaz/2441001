@@ -200,7 +200,7 @@ $input-border:                   #ccc !default;
 // This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
 $input-border-radius:            $border-radius-base !default;
 //** Large `.form-control` border radius
-$input-border-radius-large:      $border-radius-large !default;
+$input-border-radius-large:      8px !default;
 //** Small `.form-control` border radius
 $input-border-radius-small:      $border-radius-small !default;
 
@@ -213,7 +213,7 @@ $input-color-placeholder:        #999 !default;
 //** Default `.form-control` height
 $input-height-base:              ($line-height-computed + ($padding-base-vertical * 2) + 2) !default;
 //** Large `.form-control` height
-$input-height-large:             (ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2) !default;
+$input-height-large:            49.834px !default;
 //** Small `.form-control` height
 $input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2) !default;
 

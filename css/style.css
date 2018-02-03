@@ -2524,7 +2524,7 @@ input[type="search"] {
   .input-group-lg > input[type="month"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="month"].btn, .input-group-lg
   input[type="month"] {
-    line-height: 46px; } }
+    line-height: 49.834px; } }
 .form-group {
   margin-bottom: 15px; }
 
@@ -2644,17 +2644,17 @@ select[multiple].input-sm,
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 46px;
+  height: 49.834px;
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33333;
-  border-radius: 6px; }
+  border-radius: 8px; }
 
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
 .input-group-lg > .input-group-btn > select.btn {
-  height: 46px;
-  line-height: 46px; }
+  height: 49.834px;
+  line-height: 49.834px; }
 
 textarea.input-lg, .input-group-lg > textarea.form-control,
 .input-group-lg > textarea.input-group-addon,
@@ -2666,19 +2666,21 @@ select[multiple].input-lg,
   height: auto; }
 
 .form-group-lg .form-control {
-  height: 46px;
+  height: 49.834px;
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33333;
-  border-radius: 6px; }
+  border-radius: 8px;
+  border-color: #e5e8ed;
+  border-width: 2.083px; }
 .form-group-lg select.form-control {
-  height: 46px;
-  line-height: 46px; }
+  height: 49.834px;
+  line-height: 49.834px; }
 .form-group-lg textarea.form-control,
 .form-group-lg select[multiple].form-control {
   height: auto; }
 .form-group-lg .form-control-static {
-  height: 46px;
+  height: 49.834px;
   min-height: 38px;
   padding: 11px 16px;
   font-size: 18px;
@@ -2706,9 +2708,9 @@ select[multiple].input-lg,
 .input-group-lg > .input-group-btn > .btn + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
-  width: 46px;
-  height: 46px;
-  line-height: 46px; }
+  width: 49.834px;
+  height: 49.834px;
+  line-height: 49.834px; }
 
 .input-sm + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback,
 .input-group-sm > .input-group-addon + .form-control-feedback,
@@ -3506,7 +3508,7 @@ tbody.collapse.in {
   .input-group-lg > .input-group-btn > .input-group-addon.btn {
     padding: 10px 16px;
     font-size: 18px;
-    border-radius: 6px; }
+    border-radius: 8px; }
   .input-group-addon input[type="radio"],
   .input-group-addon input[type="checkbox"] {
     margin-top: 0; }
@@ -6641,3 +6643,335 @@ ul.prices li {
     line-height: 123px;
     font-size: 27.08px;
     text-align: center; }
+
+.right-side-model-three {
+  margin-top: 66.93px; }
+
+.form-group.form-group-lg {
+  margin-bottom: 24px; }
+
+.schedule-form {
+  margin: 60px 45px; }
+  .schedule-form h3 {
+    font-size: 22.92px;
+    color: #545b5e; }
+  .schedule-form label {
+    color: #a6afbe;
+    font-size: 20.83px;
+    font-weight: 100; }
+  .schedule-form .btn-default {
+    color: #fff;
+    border-color: #45b6b0;
+    background-color: #45b6b0;
+    line-height: 45px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px 42px; }
+  .schedule-form ul {
+    margin: 24px 0 50px 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    display: block;
+    width: 100%; }
+    .schedule-form ul.patient-list li {
+      display: inline-block;
+      width: 32%;
+      float: left;
+      margin-left: 1%; }
+      .schedule-form ul.patient-list li:first-child {
+        margin-left: 0%; }
+      .schedule-form ul.patient-list li a {
+        display: block;
+        text-align: center;
+        color: #545b5e;
+        border-width: 2.083px;
+        border-color: #e5e8ed;
+        border-style: solid;
+        font-size: 18.75px;
+        line-height: 49.834px;
+        border-radius: 30px; }
+
+.new-patient-form {
+  margin: 60px 45px; }
+  .new-patient-form h3 {
+    font-size: 22.92px;
+    color: #545b5e; }
+  .new-patient-form label {
+    color: #a6afbe;
+    font-size: 20.83px;
+    font-weight: 100; }
+  .new-patient-form .btn-default {
+    color: #fff;
+    border-color: #45b6b0;
+    background-color: #45b6b0;
+    line-height: 45px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px 42px;
+    margin-bottom: 20px; }
+    .new-patient-form .btn-default.header-button {
+      border-radius: 8px;
+      padding: 5px 10px; }
+
+.check-in-form {
+  margin: 0px 50px; }
+  .check-in-form .sellectors select {
+    width: 100%;
+    font-size: 20.98px; }
+  .check-in-form label {
+    color: #a6afbe;
+    font-size: 20.83px;
+    font-weight: 100; }
+  .check-in-form .btn-days {
+    border-radius: 50% !important;
+    width: 41.444px;
+    height: 40.444px;
+    border-width: 1.778px;
+    line-height: 40px;
+    display: inline-block;
+    border-style: solid;
+    margin: 30px 20px;
+    padding: 0; }
+    .check-in-form .btn-days.transp {
+      border-color: #e5e8ed; }
+    .check-in-form .btn-days.graybg {
+      border-color: #e5e8ed;
+      background-color: #e5e8ed;
+      color: #545b5e; }
+    .check-in-form .btn-days.blue {
+      color: #fff;
+      background-color: #45b6b0;
+      border-color: #45b6b0; }
+  .check-in-form .btn-default {
+    color: #545b5e;
+    border-color: #e5e8ed;
+    background-color: #fff;
+    line-height: 45px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px 42px;
+    margin-top: 20px; }
+
+.right-side-model-four {
+  margin: 15px 35px;
+  color: #a6afbe;
+  font-size: 23.32px; }
+  .right-side-model-four h3 {
+    color: #545b5e;
+    font-size: 27.98px;
+    line-height: 35px; }
+  .right-side-model-four .media {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .right-side-model-four .bordered {
+    border-width: 2.667px;
+    border-color: #e5e8ed;
+    border-style: solid;
+    border-radius: 7px;
+    top: 489px;
+    width: 229.666px;
+    line-height: 47.666px;
+    font-size: 23.32px;
+    display: inline-block;
+    padding-left: 20px; }
+    .right-side-model-four .bordered .times {
+      display: block;
+      color: #45b6b0;
+      margin-top: -20px; }
+
+.add-clinic {
+  background-image: url(../images/pluss.png);
+  background-repeat: no-repeat;
+  background-position: 13px;
+  border-width: 2.083px;
+  border-color: #e5e8ed;
+  border-style: solid;
+  line-height: 66.834px;
+  border-radius: 30px;
+  font-size: 25.5px;
+  color: #45b6b0;
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 30px;
+  margin-bottom: 35px; }
+
+.edit-delete a {
+  font-size: 26.65px;
+  color: #45b6b0;
+  display: inline-block;
+  margin-left: 40px; }
+
+.modal-backdrop.in {
+  opacity: 0.77; }
+
+#thirdModal .modal-dialog {
+  width: 1460px;
+  margin: 30px auto;
+  height: 100vh; }
+  @media screen and (max-width: 1460px) {
+    #thirdModal .modal-dialog {
+      width: 100%; } }
+
+.third-modal-window {
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 12px;
+  background-color: white;
+  width: 1460px;
+  height: 820px; }
+  @media screen and (max-width: 1460px) {
+    .third-modal-window {
+      width: 100%; } }
+  .third-modal-window .btn-default {
+    color: #545b5e;
+    border-color: #e5e8ed;
+    background-color: #fff;
+    line-height: 45px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px 42px;
+    margin-top: 20px; }
+  .third-modal-window .light-box-header {
+    padding-left: 60px; }
+  .third-modal-window h3.lb-main-header {
+    color: #545b5e;
+    font-size: 27.08px;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+  .third-modal-window .time-nav a.grey-bg {
+    display: inline-block;
+    color: #545b5e;
+    font-size: 22.92px;
+    border-width: 2.083px;
+    border-color: #e5e8ed;
+    border-style: solid;
+    background-color: #e5e8ed;
+    width: 27%;
+    line-height: 66.834px;
+    background-repeat: no-repeat;
+    background-position: 40px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    text-align: center; }
+  .third-modal-window .time-nav a.left {
+    display: inline-block;
+    width: 50px;
+    height: 34px;
+    position: relative; }
+    .third-modal-window .time-nav a.left:after {
+      width: 50px;
+      height: 50px;
+      content: "";
+      background-image: url("../images/angle-down.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: absolute;
+      transform: rotate(90deg);
+      display: block; }
+  .third-modal-window .time-nav a.right {
+    display: inline-block;
+    width: 50px;
+    height: 34px;
+    position: relative; }
+    .third-modal-window .time-nav a.right:after {
+      width: 50px;
+      height: 50px;
+      content: "";
+      background-image: url("../images/angle-down.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: absolute;
+      transform: rotate(270deg);
+      display: block; }
+  .third-modal-window .limiter {
+    width: 420px;
+    margin: auto; }
+
+#fourthModal .modal-dialog {
+  width: 1460px;
+  margin: 30px auto;
+  height: 100vh; }
+  @media screen and (max-width: 1460px) {
+    #fourthModal .modal-dialog {
+      width: 100%; } }
+
+.fourth-modal-window {
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 12px;
+  background-color: white;
+  width: 1460px;
+  height: 820px; }
+  @media screen and (max-width: 1460px) {
+    .fourth-modal-window {
+      width: 100%; } }
+  .fourth-modal-window .btn-default {
+    color: #545b5e;
+    border-color: #e5e8ed;
+    background-color: #fff;
+    line-height: 45px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px 42px;
+    margin-top: 20px; }
+  .fourth-modal-window .light-box-header {
+    padding-left: 60px; }
+  .fourth-modal-window h3.lb-main-header {
+    color: #545b5e;
+    font-size: 27.08px;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+  .fourth-modal-window .dates .date {
+    color: #e5e8ed;
+    border-color: #e5e8ed;
+    background-color: #fff;
+    line-height: 45px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px 42px;
+    margin-top: 20px;
+    border-width: 2px;
+    border-style: solid; }
+  .fourth-modal-window .remove-link a {
+    color: #e5e8ed;
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    line-height: 45px;
+    font-size: 20px;
+    padding: 25px 0px; }
+    .fourth-modal-window .remove-link a:hover {
+      color: #45b6b0; }
+  .fourth-modal-window .point {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 40px 0px 0px 20px; }
+    .fourth-modal-window .point.red {
+      background-color: #f24c3e; }
+    .fourth-modal-window .point.yellow {
+      background-color: #fcc352; }
+    .fourth-modal-window .point.blue {
+      background-color: #45b6b0; }
+  .fourth-modal-window .limiter {
+    width: 420px;
+    margin: auto; }
